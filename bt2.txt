@@ -1,0 +1,7 @@
+
+Phần 1 : phân tích 
+Sự nhầm lẫn của An trong mặt tư duy là  tìm kiếm tất cả các file “*404” chứ k phải là tìm kiếm tất cả phần nội dung có chứa “404” 
+Get -childitem : in ra nội dung ở trong một file 
+Select-string : lọc và in ra màn hình các nội dung có chứa keyword 
+Phần 2 : hoàn thiện 
+Câu lệnh chuẩn : select-string “error”  access.log 
